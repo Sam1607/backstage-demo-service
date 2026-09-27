@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: artist-api
+  description: Retrieve Artist Detail
+  annotations:
+    github.com/project-slug: sam1607/backstage-demo-service
+
+spec:
+  type: openapi
+  lifecycle: production
+  owner: user:default/guest
+  system: artist-engagement-portal
+  definition: 
+      $text: https://gist.github.com/lenage/08964335de9064540c8c335fb849c5da#file-feature-swagger-json

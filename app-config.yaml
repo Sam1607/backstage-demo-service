@@ -14,7 +14,7 @@ app:
         config:
           path: /
     # - page:home:
-    #     config:
+    #     config: 
     #       path: /
 
     # Visit tracking records which pages users navigate to and is disabled by default.
@@ -100,10 +100,14 @@ organization:
   name: My Company
 
 backend:
+  reading:
+    allow:
+      - host: gist.github.com
+      - host: gist.githubusercontent.com
   # Used for enabling authentication, secret is shared by all backend plugins
   # See https://backstage.io/docs/auth/service-to-service-auth for
   # information on the format
-  # auth:
+  # auth:auth
   #   keys:
   #     - secret: ${BACKEND_SECRET}
   baseUrl: http://localhost:7007
