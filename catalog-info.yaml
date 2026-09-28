@@ -1,6 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+<<<<<<< HEAD
   name: first-project-backend
   description: An example of a Backstage application.
   # Example for optional annotations
@@ -11,3 +12,14 @@ spec:
   type: website
   owner: john@example.com
   lifecycle: experimental
+=======
+  name: backstage-demo-service
+  description: A small demo service for Backstage GitHub Catalog integration
+  annotations:
+    github.com/project-slug: sam1607/backstage-demo-service
+
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:default/guest
+>>>>>>> 828ead4a92952d9dfefee14c172243b5b0387b89
