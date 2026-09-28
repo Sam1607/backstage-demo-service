@@ -12,14 +12,12 @@ paths:
   /artists/{id}:
     get:
       summary: Retrieve Artist Detail
-
       parameters:
         - name: id
           in: path
           required: true
           schema:
             type: string
-
       responses:
         '200':
           description: Artist details
@@ -34,6 +32,5 @@ paths:
                     type: string
                   genre:
                     type: string
-
         '404':
           description: Artist not found
