@@ -6,6 +6,7 @@ metadata:
   description: A small demo service for Backstage GitHub Catalog integration
   annotations:
     github.com/project-slug: sam1607/backstage-demo-service
+    backstage.io/techdocs-ref: dir:.
 
 spec:
   type: service
