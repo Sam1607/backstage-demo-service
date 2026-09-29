@@ -7,6 +7,7 @@ metadata:
   annotations:
     github.com/project-slug: sam1607/backstage-demo-service
     backstage.io/techdocs-ref: dir:.
+    backstage.io/techdocs-ref: dir:.
 
 spec:
   type: service
@@ -24,6 +25,7 @@ metadata:
 
   annotations:
     github.com/project-slug: sam1607/backstage-demo-service
+    backstage.io/techdocs-ref: dir:.
 
 spec:
   type: openapi
