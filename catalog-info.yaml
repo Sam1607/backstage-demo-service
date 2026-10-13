@@ -1,3 +1,4 @@
+
 apiVersion: backstage.io/v1alpha1
 kind: Component
 
@@ -21,15 +22,12 @@ kind: API
 metadata:
   name: artist-api
   description: Retrieve Artist Detail
-
   annotations:
     github.com/project-slug: sam1607/backstage-demo-service
-    backstage.io/techdocs-ref: dir:.
 
 spec:
   type: openapi
   lifecycle: production
   owner: user:default/guest
-
   definition:
     $text: ./openapi.yaml
