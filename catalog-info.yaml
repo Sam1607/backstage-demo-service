@@ -8,6 +8,13 @@ metadata:
   annotations:
     github.com/project-slug: sam1607/backstage-demo-service
     backstage.io/techdocs-ref: dir:.
+    tags: 
+      - backstage
+    links:
+      - url: https://admin.github.com/sam1607/backstage-demo-service
+        title: GitHub Repo 
+        icon: https://github.githubassets.com/favicons/favicon.svg
+        type: link 
 
 spec:
   type: service
