@@ -1,37 +1,30 @@
-
 apiVersion: backstage.io/v1alpha1
 kind: Component
-
 metadata:
   name: backstage-demo-service
   description: A small demo service for Backstage GitHub Catalog integration
+  tags:
+    - backstage
+  links:
+    - url: https://github.com/Sam1607/backstage-demo-service
+      title: GitHub Repo
+      icon: github
+      type: repository
   annotations:
     github.com/project-slug: sam1607/backstage-demo-service
     backstage.io/techdocs-ref: dir:.
-    tags: 
-      - backstage
-    links:
-      - url: https://admin.github.com/sam1607/backstage-demo-service
-        title: GitHub Repo 
-        icon: https://github.githubassets.com/favicons/favicon.svg
-        type: link 
-
 spec:
   type: service
   lifecycle: experimental
   owner: user:default/guest
-
 ---
-
 apiVersion: backstage.io/v1alpha1
 kind: API
-
 metadata:
   name: artist-api
   description: Retrieve Artist Detail
   annotations:
     github.com/project-slug: sam1607/backstage-demo-service
-
 spec:
   type: openapi
   lifecycle: production
